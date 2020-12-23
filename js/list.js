@@ -1,4 +1,4 @@
       var example = [
         'opacity',
-        'text-transfrom',
+        'text-transform',
       ];
