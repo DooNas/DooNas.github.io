@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>position</title>
+    <style>
+      div.container {
+          border:solid 5px green;
+          height: 200px;
+          margin:20px;
+      }
+      div.normal{
+        border:solid 1px blue;
+      }
+      div.static {
+          position: static;
+          border:solid 1px red;
+          top: 5px;
+          left: 5px;
+      }
+      div.relative {
+          position: relative;
+          border:solid 1px rgb(228, 0, 255);
+          top: 5px;
+          left: 5px;
+      }
+      div.fixed {
+          position: fixed;
+          border:solid 1px #0ee9a1;
+      }
+</style>
+  </head>
+  <body>
+    <span style="position: sticky;border:solid 5px red;top:10px;left:100%;">
+      <a href="https://doonas.github.io//index.html">처음으로 돌아가기</a>
+    </span>
+    <div class="container">
+      <div class="static">position:static; 기본상태.</div>
+    </div>
+    <div class="container">
+      <div class="static">position:static; 기본상태.</div>
+      <div class="relative">position:relative; 기본 위치에서 별도로 이동가능</div>
+      <div class="normal">기본상태</div>
+    </div>
+    <div class="container">
+      <div class="fixed">position:fixed; 유령상태가 되서 곂치기가 된다.</div>
+      <div class="static">position:static; 기본값.</div>
+      <div class="normal">기본상태</div>
+    </div>
+  </body>
+</html>

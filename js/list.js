@@ -2,4 +2,5 @@
         'opacity',
         'text-transform',
         'hover',
+        'position'
       ];
