@@ -1,3 +1,3 @@
       var example = [
-        '1',
+        'opacity',
       ];
